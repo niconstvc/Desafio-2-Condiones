@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #072534;
+  }
+  
+  img {
+    width: 300px;
+    height: auto;
+    padding: 0.5rem;
+  }
+  
+  input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #072534;
+  }
+  
+  button {
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    background-color: #072534;
+    color: #BDDC3F;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #40B5CB ;
+  }
+  
+  input,
+  hr {
+    width: 100%;
+  }
+  
+  select {
+    padding: 0.3rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  
+  .parte-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .parte-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .parte-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  #sticker-logo {
+    width: 500px;
+    height: auto;
+  }
+  
+  .parte-2{
+    flex-direction: column;
+  }
+  
+  .parte-3 {
+    flex-direction: column;
+  }
+  
+  .cards {
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex-direction: column;
+    padding: 0.7rem;
+    gap: 0.5rem;
+  }
+  

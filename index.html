@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/STYLE/style.css">
+    <script defer src="./style/JS/javas.js"></script>
+    <link rel="icon" href="https://play-lh.googleusercontent.com/fXQVXTma1ENwAFjsxJ4IT6GntBr3RxWP3HMSLbNdvycl-0tscOQEeJIEAmehcNOt5hCp">
+    <title>Condiciones</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="parte-1">
+            <img id="sticker-logo" src="./style/IMG/logo.png" alt="Logo">
+        </section>
+        <hr>
+        <section class="parte-2">
+            <h3>Puedes llevar hasta 10 stickers en total</h3>
+            <div class="cards">
+                <div class="card">
+                    <img src="./style/IMG/1.png" alt="Stickers Morty and Summer">
+                    <p>Morty and Summer</p>
+                    <input id="card-1" type="number" min="0" max="10" value="0">
+                </div>
+                <div class="card">
+                    <img src="./style/IMG/2.png" alt="Rick and Morty">
+                    <p>Rick and Morty</p>
+                    <input id="card-2" type="number" min="0" max="10" value="0">
+                </div>
+                <div class="card">
+                    <img src="./style/IMG/3.png" alt="Stickers Rick and Morty">
+                    <p>Rick and Morty</p>
+                    <input id="card-3" type="number" min="0" max="10" value="0">
+                </div>
+            </div>
+            <p id="txt-verificar"></p>
+            <button id="btn-verificar">Verificar</button>
+        </section>
+        <hr>
+        <section class="parte-3">
+            <h3>Ingresa la contraseña</h3>
+            <div class="password">
+                <select name="digito-0" id="digito-0">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="digito-1" id="digito-1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="digito-2" id="digito-2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <button id="btn-ingresar">Ingresar</button>
+            <p id="txt-password"></p>
+        </section>
+    </div>
+</body>
+</html>
